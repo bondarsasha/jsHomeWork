@@ -1,4 +1,4 @@
-function Car(model, rubber) {
+/*function Car(model, rubber) {
     this.model = model;
     this.rubber = rubber;
     this.getModel = function () {
@@ -32,4 +32,24 @@ mazda.getRubber();
 mazda.changeRubber("winterRubber");
 mazda.getRubber();
 mazda.playMusic();
-mazda.go();
+mazda.go();*/
+
+
+
+(function() {
+  var n = [0,3,5,1,7,6,8];
+  for (var i = 0; i < n.length; i++) {
+    if (n[i] == 5){
+      console.log(n[i]);
+    }
+  }
+})();
+
+(function() {
+  var n = [0,3,'text',1,7,6,8];
+  for (var i = 0; i < n.length; i++) {
+    if (n[i] == 'text'){
+      console.log(n[i]);
+    }
+  }
+})();
