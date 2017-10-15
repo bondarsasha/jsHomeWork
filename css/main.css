@@ -1,12 +1,16 @@
-* {
+#game {
+  width: 150px;
+  height: 150px;
+  background: red;
+}
+.item {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  outline: 0; }
-
-html {
-  font-size: 62.5%; }
-  html body {
-    background: #fff;
-    color: #000;
-    font: 1.6rem/2.1rem 'Open Sans'; }
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 1px solid #fff;
+  line-heeight: 50px;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
